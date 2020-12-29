@@ -6,7 +6,7 @@ public class ConvertLettersIntoNumbers {
 		
 		String input = "aBCD";
 		
-		System.out.println('A'-0);
+		System.out.println('A');
 		System.out.println('a'-0);
 		
 		for(int i =0; i< input.length(); i++) {

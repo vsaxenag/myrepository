@@ -13,8 +13,7 @@ public class CheckIfStringCharsAreUnique {
 		
 		approach2(charArray);
 		
-		
-		
+	
 
 	}
 	public static void approach2(char[] charArray) {
@@ -39,38 +38,5 @@ public class CheckIfStringCharsAreUnique {
 		
 	}
 	
-	public static void approach1(char[] charArray) {
-		
-		boolean isUnique = true;
-		for(int i=0;i<charArray.length; i++) {
-			
-			System.out.println(charArray[i]);
-			
-			for(int j=i+1; j<charArray.length; j++) {
-				
-				System.out.println(charArray[j]);
-				if(charArray[j] ==  charArray[i]) {
-					
-					System.out.println("Not Unique");
-					isUnique = false;
-					break;
-					
-				}
-				
-			}
-			
-			if(!isUnique) {
-				break;
-			}
-			System.out.println("*******");
-			
-		}
-		
-		if(isUnique) {
-			System.out.println("Yes Unique");;
-		}
-		
-		
-	}
-
+	
 }
